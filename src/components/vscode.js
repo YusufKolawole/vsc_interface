@@ -16,7 +16,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default () => (
-  <section className="h-screen bg-purple-800" style={{background: "334499"}}>
+  <section className="h-screen bg-purple-800" style={{ background: "334499" }}>
     <nav>
       <ul className="flex bg-white ">
         <li className="">File</li>
@@ -34,37 +34,37 @@ export default () => (
         className="flex flex-col pr-7 items-center justify-start pl-2 bg-purple-900 mr-2"
         style={{ height: "calc(100vh - 30px)" }}
       >
-        <i className="text-gray-400 text-2xl mt-1">
+        <i className="text-gray-200 text-2xl mt-1">
           <FontAwesomeIcon icon={faCopy} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faSearch} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faCodeBranch} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faPlay} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faExternalLinkAlt} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faDocker} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3">
           <FontAwesomeIcon icon={faDochub} />
         </i>
-        <i className="text-gray-400 text-2xl my-3">
+        <i className="text-gray-200 text-2xl my-3 content-end">
           <FontAwesomeIcon icon={faUserCircle} />
         </i>
 
-        <i className="text-gray-400 text-2xl my-3 bottom-0 relative">
+        <i className="text-gray-200 text-2xl my-3  content-end">
           <FontAwesomeIcon icon={faCog} />
         </i>
       </aside>
 
-      <section>
+      <section className="flex items-center justify-center flex-col h-full">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
           deleniti. Quos nihil molestias neque atque, qui ea maxime nemo unde
